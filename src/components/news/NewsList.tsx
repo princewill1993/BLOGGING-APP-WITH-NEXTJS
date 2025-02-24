@@ -40,7 +40,9 @@ function NewsList() {
 
   return (
     <div>
-      <h3>List of all the news</h3>
+      <h3 className="text-4xl text-gray-500 font-bold mb-6">
+        List of all the news
+      </h3>
 
       <div className="grid grid-col-2 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4">
         {newsData.map((item: NewsItems, index: number) => {
